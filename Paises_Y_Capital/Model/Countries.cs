@@ -8,3 +8,4 @@ namespace Paises_Y_Capital.Model
         public List<Country> data { get; set; }
     }
 }
+

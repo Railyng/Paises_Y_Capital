@@ -32,7 +32,9 @@
             this.lblResultado = new System.Windows.Forms.Label();
             this.btnBuscar = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.pictureBoxBandera = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxBandera)).BeginInit();
             this.SuspendLayout();
             // 
             // txtBuscar
@@ -40,7 +42,7 @@
             this.txtBuscar.BackColor = System.Drawing.Color.White;
             this.txtBuscar.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtBuscar.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtBuscar.Location = new System.Drawing.Point(42, 287);
+            this.txtBuscar.Location = new System.Drawing.Point(93, 324);
             this.txtBuscar.Multiline = true;
             this.txtBuscar.Name = "txtBuscar";
             this.txtBuscar.Size = new System.Drawing.Size(248, 40);
@@ -64,7 +66,7 @@
             this.btnBuscar.BackColor = System.Drawing.Color.Transparent;
             this.btnBuscar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnBuscar.Font = new System.Drawing.Font("Myanmar Text", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnBuscar.Location = new System.Drawing.Point(70, 356);
+            this.btnBuscar.Location = new System.Drawing.Point(124, 370);
             this.btnBuscar.Name = "btnBuscar";
             this.btnBuscar.Size = new System.Drawing.Size(183, 39);
             this.btnBuscar.TabIndex = 2;
@@ -76,10 +78,20 @@
             // 
             this.panel1.BackColor = System.Drawing.Color.Transparent;
             this.panel1.Controls.Add(this.lblResultado);
-            this.panel1.Location = new System.Drawing.Point(340, 295);
+            this.panel1.Location = new System.Drawing.Point(24, 428);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(475, 100);
+            this.panel1.Size = new System.Drawing.Size(417, 127);
             this.panel1.TabIndex = 3;
+            // 
+            // pictureBoxBandera
+            // 
+            this.pictureBoxBandera.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBoxBandera.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBoxBandera.Location = new System.Drawing.Point(482, 333);
+            this.pictureBoxBandera.Name = "pictureBoxBandera";
+            this.pictureBoxBandera.Size = new System.Drawing.Size(485, 245);
+            this.pictureBoxBandera.TabIndex = 4;
+            this.pictureBoxBandera.TabStop = false;
             // 
             // Form1
             // 
@@ -87,7 +99,8 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::Paises_Y_Capital.Properties.Resources.bande;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(874, 462);
+            this.ClientSize = new System.Drawing.Size(990, 590);
+            this.Controls.Add(this.pictureBoxBandera);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.btnBuscar);
             this.Controls.Add(this.txtBuscar);
@@ -98,6 +111,7 @@
             this.Text = "Form1";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxBandera)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -109,6 +123,7 @@
         private System.Windows.Forms.Label lblResultado;
         private System.Windows.Forms.Button btnBuscar;
         private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.PictureBox pictureBoxBandera;
     }
 }
 
